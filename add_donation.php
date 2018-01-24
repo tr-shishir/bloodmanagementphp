@@ -46,6 +46,9 @@
 </form>
 
 
+<label><b><td><a href="main.php"?id="main">main_manu</a></td></b></label>
+
+
 
 
 

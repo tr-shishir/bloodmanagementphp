@@ -45,13 +45,17 @@ header("location: login.php");
 	<label><b>Blood_group</b></label>
     <input type="text" placeholder="Enter Blood_group" name="bgroup" required><br/>
 
-    <button type="submit">Submit</button><br/>
+    <button type="submit">Submit</button><br/><br/>
+	
+	
+	<label><b><td><a href="add_donation.php"?id="donar">add_donation</a></td></b></label><br/>
+    
+	
     <label>
       <input type="checkbox" checked="checked"> Remember me
     </label><br/><br/>
 	
 	<label><b><td><a href="logout.php"?id="logout">Logout</a></td></b></label>
-    
 	
 	
 	
@@ -79,6 +83,7 @@ header("location: login.php");
 		<th>Last Donation Date</th>
 		<th>Add donation date</th>
 		<th>Edit profile</th>
+		<th>Delet profile</th>
       </tr>
     </thead>
     <tbody>
@@ -112,8 +117,9 @@ die('Connect Error: ' . $con->connect_error);
 		<td>".$row['number']."</td>
         <td>".$row['blood_group']."</td>
 		<td>".$row['date']."</td>
-		<td><a href=donar.php?id=".$row['id'].">link text</a></td>
-		<td><a href=edit.php?id=".$row['id'].">link text</a></td>
+		<td><a href=donar.php?id=".$row['id'].">add_donation</a></td>
+		<td><a href=edit.php?id=".$row['id'].">Edit_profile</a></td>
+		<td><a href=delet.php?id=".$row['id'].">Delet profile</a></td>
       </tr>";
  
 

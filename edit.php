@@ -44,6 +44,7 @@
       <input type="checkbox" checked="checked"> Remember me
     </label><br/><br/>
 	
+<label><b><td><a href="main.php"?id="main">main_manu</a></td></b></label>
 	
     
 	

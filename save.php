@@ -13,6 +13,7 @@ echo "NUMBER is ".$_POST['num']."<br/>";
 
 
 
+
 // Make connection to database
 $conn = @new mysqli('localhost', 'root', '', 'rajpoth');
 if ($conn->connect_error) {
@@ -38,5 +39,6 @@ echo "Rows successfully added<br/>";
 }
 }
 
-
+?>
+<label><b><td><a href="main.php"?id="main">main_manu</a></td></b></label>
 

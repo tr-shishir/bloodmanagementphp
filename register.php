@@ -24,14 +24,15 @@
     <input type="text" placeholder="Enter Username" name="uname" required><br/>
 	
 	 <label><b>E-mail</b></label>
-    <input type="text" placeholder="Enter Age" name="age" required><br/>
+    <input type="text" placeholder="Enter Email" name="age" required><br/>
 	
 	 <label><b>password</b></label>
-    <input type="text" placeholder="Enter University" name="uni" required><br/>
+    <input type="text" placeholder="Enter password" name="uni" required><br/>
 	
 	
     <button type="submit">Submit</button><br/> <br/>
 	<form action="login.php">
+	<br/>
 	<label><b><td><a href="login.php"?id="login">Login</a></td></b></label>
    
 	</form>

@@ -58,6 +58,8 @@ header("location: main.php");
     <input type="password" placeholder="Enter Password" name="password" required >
 
     <button type="submit" name="login">Login</button>
+	<br/><br/>
+	<label><b><td><a href="register.php"?id="register">resittration</a></td></b></label><br/>
     <label>
       <input type="checkbox" checked="checked"> Remember me
     </label>
